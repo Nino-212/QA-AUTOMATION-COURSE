@@ -3,6 +3,10 @@ const number = 5 + 2;
 console.log(number + 3);
 
 console.log(4 + 3);
-// Substraction
+// 2. Substraction
 
 console.log(9 - 4);
+
+// 3. Multiplication
+
+console.log(2 * 4);
