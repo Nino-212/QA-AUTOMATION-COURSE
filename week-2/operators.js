@@ -62,3 +62,17 @@ console.log(8 <= 8); // true
 
 console.log(5 == "5"); //true
 console.log(5 == 5); //true
+
+// Logical Operators
+// 1.&& (and) sign - Return true only if both conditions are true
+if (5 > 3 && 2 < 4) {
+  console.log("Hi, NYC!");
+} // true
+// Does not ptint anything becouse one of the condition is false
+if (5 > 3 && 8 < 4) {
+  console.log("Hi, NYC!");
+}
+// 2. || (or) operator - Returns true if one of rhe condition is true.
+if (5 > 3 || 2 < 4) {
+  console.log("Hi,Chicago!");
+}
