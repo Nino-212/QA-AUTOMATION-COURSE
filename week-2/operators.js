@@ -10,3 +10,5 @@ console.log(9 - 4);
 // 3. Multiplication
 
 console.log(2 * 4);
+// 4. Division
+console.log(8 / 4);
