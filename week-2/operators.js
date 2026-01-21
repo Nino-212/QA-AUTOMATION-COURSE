@@ -18,6 +18,10 @@ console.log(2 ** 3);
 //6  Modulus (Remainder) operator (остаток от %)
 console.log(8 % 3);
 
-//7 Increment operator
+//7 Increment operator (+1)
 
-let a = 5;
+let a = 5; // ->5+1
+a++;
+console.log(a);
+
+//8
