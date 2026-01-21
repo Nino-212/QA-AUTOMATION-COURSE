@@ -15,3 +15,9 @@ console.log(8 / 4);
 
 //5 .Exponention
 console.log(2 ** 3);
+//6  Modulus (Remainder) operator (остаток от %)
+console.log(8 % 3);
+
+//7 Increment operator
+
+let a = 5;
