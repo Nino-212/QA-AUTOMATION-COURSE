@@ -1,0 +1,15 @@
+const a = 10;
+const b = 5;
+
+const addResult = a + b;
+console.log (addResult);
+
+const substractResult = a-b;
+console.log(substractResult);
+
+const multiplyResult = a*b;
+console.log (multiplyResult);
+
+const divideResult = a/b;
+console.log (divideResult);
+
