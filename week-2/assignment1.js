@@ -56,3 +56,9 @@ console.log(aBc !== aVb);
 let firstRoom = 10;
 let secondRoom = 8;
 console.log(firstRoom && secondRoom);
+
+//2.
+let table = 7;
+let chair = 2;
+let couch = 10;
+console.log(chair < couch || table > couch);
