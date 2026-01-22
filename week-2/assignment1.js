@@ -81,3 +81,5 @@ if (greeting) {
 }
 
 //3
+let data = 0 || "Hello";
+console.log(data);
