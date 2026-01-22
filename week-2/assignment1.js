@@ -49,3 +49,10 @@ console.log(firstNumber < secondNumber);
 const aBc = 15;
 const aVb = 10;
 console.log(aBc !== aVb);
+
+//Part 3:
+//1. Comparisson expressions and combaine them
+
+let firstRoom = 10;
+let secondRoom = 8;
+console.log(firstRoom && secondRoom);
