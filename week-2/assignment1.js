@@ -67,3 +67,17 @@ console.log(chair < couch || table > couch);
 let ab = 5;
 let ba = 7;
 console.log(!(ab > ba));
+
+//Part 4 Truthy VS Falsy
+//1.
+let winter = 0;
+if (!winter) {
+  console.log("Falsy value detected");
+}
+//2
+const greeting = "Hello";
+if (greeting) {
+  console.log("Truthy value detected");
+}
+
+//3
