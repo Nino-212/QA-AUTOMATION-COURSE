@@ -33,4 +33,8 @@ console.log(e % f);
 //Raise it to the power
 const number = 15;
 console.log(number ** 2);
-// test contribution
+
+//Part 2 Comparison Operators
+let age = 100;
+let anniversary = "100 years";
+console.log(age === anniversary);
