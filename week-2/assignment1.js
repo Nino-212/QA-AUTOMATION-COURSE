@@ -38,3 +38,10 @@ console.log(number ** 2);
 let age = 100;
 let anniversary = "100 years";
 console.log(age === anniversary);
+
+//1.Create two different numbers
+
+let firstNumber = 10;
+let secondNumber = 2;
+console.log(firstNumber > secondNumber);
+console.log(firstNumber < secondNumber);
