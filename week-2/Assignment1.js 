@@ -1,3 +1,5 @@
+Part 1 
+
 const a = 10;
 const b = 5;
 
@@ -12,4 +14,10 @@ console.log (multiplyResult);
 
 const divideResult = a/b;
 console.log (divideResult);
+
+//2 Create a number 
+
+let a = 5;
+a++; 
+console.log(a);  
 
