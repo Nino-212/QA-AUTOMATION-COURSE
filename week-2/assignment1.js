@@ -62,3 +62,8 @@ let table = 7;
 let chair = 2;
 let couch = 10;
 console.log(chair < couch || table > couch);
+
+//3
+let ab = 5;
+let ba = 7;
+console.log(!(ab > ba));
