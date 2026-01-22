@@ -83,3 +83,8 @@ if (greeting) {
 //3
 let data = 0 || "Hello";
 console.log(data);
+
+//Challange
+let username = "Nino";
+username && console.log("Welcome back");
+!username && console.log("Please sign up");
