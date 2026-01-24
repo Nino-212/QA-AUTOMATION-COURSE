@@ -171,3 +171,9 @@ console.log(statusMessage.replace("not", ""));
 
 let comment = "This test is very slow";
 console.log(comment.replace("slow", "fast"));
+
+let errorText = "Error: access denied";
+console.log(errorText.replace(":access denied", ""));
+
+let userRole = "User has guest access";
+console.log(userRole.replace("guest", "admin"));
