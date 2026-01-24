@@ -207,3 +207,19 @@ console.log(errorMessage.includes("day"));
 let notification1 = "Your password will expire in three days";
 console.log(notification1.includes("password"));
 console.log(notification1.includes("His"));
+
+let statusText = "Order has been shipped";
+console.log(statusText.includes("Order"));
+console.log(statusText.includes("password"));
+
+let warningText = "Please do not refresh the page";
+console.log(warningText.includes("Please"));
+console.log(warningText.includes("will"));
+
+let feedback = "The application response time is too slow";
+console.log(feedback.includes("application"));
+console.log(feedback.includes("please"));
+
+let report = "QA team found several critical bugs today";
+console.log(report.includes("QA"));
+console.log(report.includes("order"));
