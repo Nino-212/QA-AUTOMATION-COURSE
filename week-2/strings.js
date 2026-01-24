@@ -298,3 +298,5 @@ console.log(paymentStatment[2]);
 
 let jobLevels = ["junior", "middle", "senior"];
 console.log(jobLevels[2]);
+
+//Updating Array Elements
