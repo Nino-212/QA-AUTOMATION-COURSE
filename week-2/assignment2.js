@@ -223,3 +223,11 @@ console.log(feedback.includes("please"));
 let report = "QA team found several critical bugs today";
 console.log(report.includes("QA"));
 console.log(report.includes("order"));
+
+let systemNote = "System maintenance is scheduled for today";
+console.log(systemNote.includes("System"));
+console.log(systemNote.includes("tonight"));
+
+let email = "Thank you";
+console.log(email.includes("you"));
+console.log(email.includes("me"));
