@@ -40,3 +40,31 @@ console.log(yellow.length);
 
 let lemon = "sour";
 console.log(lemon.length);
+
+//Accessing characters
+let car = "drive";
+console.log(car[2]);
+
+let phone = "call";
+console.log(phone[1]);
+
+let sun = "hot";
+console.log(sun[0]);
+
+let book = "read";
+console.log(book[0]);
+
+let music = "sound";
+console.log(music[2]);
+
+let fire = "burn";
+console.log(fire[1].length);
+
+let water = "drink";
+console.log(water[3].length);
+
+let flower = "smell";
+console.log(flower[0]);
+
+let rain = "wet";
+console.log(rain[1]);
