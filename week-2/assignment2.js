@@ -148,3 +148,6 @@ console.log(address.slice(3));
 
 let event = "Summer Music Festival";
 console.log(event.slice(6));
+
+let meeting = "Weekly Team Sync";
+console.log(meeting.slice(6, 11));
