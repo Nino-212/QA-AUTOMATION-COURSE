@@ -51,8 +51,8 @@ console.log(phone[1]);
 let sun = "hot";
 console.log(sun[0]);
 
-let book = "read";
-console.log(book[0]);
+let book1 = "read";
+console.log(book1[0]);
 
 let music = "sound";
 console.log(music[2]);
@@ -63,8 +63,8 @@ console.log(fire[1].length);
 let water = "drink";
 console.log(water[3].length);
 
-let flower = "smell";
-console.log(flower[0]);
+let niceflower = "smell";
+console.log(niceflower[0]);
 
 let rain = "wet";
 console.log(rain[1]);
@@ -78,3 +78,44 @@ console.log(country.toLowerCase());
 
 let color = "Dark blue";
 console.log(color.toLowerCase());
+
+let drink = "Green tea";
+console.log(drink.toLocaleUpperCase());
+
+let animal = "Black cat";
+console.log(animal.toUpperCase());
+
+let place = "Big park";
+console.log(place.toLowerCase());
+
+let food = "Hot soup";
+console.log(food.toUpperCase());
+
+let coolcar = "fast car";
+console.log(coolcar.toUpperCase());
+
+let weather = "Cold rain";
+console.log(weather.toLowerCase());
+
+let sound = "Soft sound";
+console.log(sound.toUpperCase());
+
+//4. Trimming Spaces
+
+let book = "  old story  ";
+console.log(book.trim());
+
+let smile = "   Brighit face  ";
+console.log(smile.trim());
+
+let night = "  dark sky ";
+console.log(night.trim());
+
+let flower = "  red petal  ";
+console.log(flower.trim());
+
+let dream = "  Sweet dream  ";
+console.log(dream.trim());
+
+let bigcity = "   big street   ";
+console.log(bigcity.trim());
