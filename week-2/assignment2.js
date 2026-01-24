@@ -162,3 +162,9 @@ console.log(airport.slice(11));
 
 let greeting = "Hello old friend";
 console.log(greeting.replace("Hello old friend", "Hello friend"));
+
+let jobTitle = "Junior QA Engineer";
+console.log(jobTitle.replace("Junior", "Senior"));
+
+let statusMessage = "order is not completed";
+console.log(statusMessage.replace("not", ""));
