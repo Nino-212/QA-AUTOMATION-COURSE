@@ -199,3 +199,11 @@ console.log(comment1.includes("good"));
 let logMessage = "User successfully loading into the system";
 console.log(logMessage.includes("User"));
 console.log(logMessage.includes("unsuccesfully"));
+
+let errorMessage = "Error occured while loading user data";
+console.log(errorMessage.includes("Error"));
+console.log(errorMessage.includes("day"));
+
+let notification1 = "Your password will expire in three days";
+console.log(notification1.includes("password"));
+console.log(notification1.includes("His"));
