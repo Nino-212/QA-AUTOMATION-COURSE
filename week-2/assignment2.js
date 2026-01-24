@@ -189,3 +189,13 @@ console.log(response.replace("bad", ""));
 
 let message = "Please update old version";
 console.log(message.replace("old", ""));
+
+//Icludes (substring)
+
+let comment1 = "This feature works only in test environment";
+console.log(comment1.includes("works"));
+console.log(comment1.includes("good"));
+
+let logMessage = "User successfully loading into the system";
+console.log(logMessage.includes("User"));
+console.log(logMessage.includes("unsuccesfully"));
