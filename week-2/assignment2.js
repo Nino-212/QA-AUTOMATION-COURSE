@@ -119,3 +119,9 @@ console.log(dream.trim());
 
 let bigcity = "   big street   ";
 console.log(bigcity.trim());
+
+let friend = "   Kind heart   ";
+console.log(friend.trim());
+
+let sunset = "   warm light ";
+console.log(sunset.trim());
