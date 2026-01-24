@@ -125,3 +125,17 @@ console.log(friend.trim());
 
 let sunset = "   warm light ";
 console.log(sunset.trim());
+
+// Slice (start,end)
+
+let name = "AnnaSmith";
+console.log(name.slice(0, 4));
+
+let bestcity = "New York";
+console.log(bestcity.slice(0, 3));
+
+let redbook = "old Story book";
+console.log(redbook.slice(4));
+
+let movie = "Dark Night Movie";
+console.log(movie.slice(4, 9));
