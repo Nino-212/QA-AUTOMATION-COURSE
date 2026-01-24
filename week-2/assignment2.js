@@ -68,3 +68,13 @@ console.log(flower[0]);
 
 let rain = "wet";
 console.log(rain[1]);
+
+//Changing case
+let city = "New York";
+console.log(city.toLocaleLowerCase());
+
+let country = "United States";
+console.log(country.toLowerCase());
+
+let color = "Dark blue";
+console.log(color.toLowerCase());
