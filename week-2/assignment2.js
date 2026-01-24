@@ -157,3 +157,8 @@ console.log(company.slice(6));
 
 let airport = "Los Angeles Airport";
 console.log(airport.slice(11));
+
+// Replace
+
+let greeting = "Hello old friend";
+console.log(greeting.replace("Hello old friend", "Hello friend"));
