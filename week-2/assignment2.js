@@ -34,3 +34,9 @@ console.log(usa.length);
 
 let italy = "Rome";
 console.log(italy.length);
+
+let yellow = "sun";
+console.log(yellow.length);
+
+let lemon = "sour";
+console.log(lemon.length);
