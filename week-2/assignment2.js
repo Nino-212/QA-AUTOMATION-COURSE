@@ -177,3 +177,12 @@ console.log(errorText.replace(":access denied", ""));
 
 let userRole = "User has guest access";
 console.log(userRole.replace("guest", "admin"));
+
+let notification = "Your password is week";
+console.log(notification.replace("week", "strong"));
+
+let description = "This featcher is outdated";
+console.log(description.replace("This", ""));
+
+let response = "Server returned bad response";
+console.log(response.replace("bad", ""));
