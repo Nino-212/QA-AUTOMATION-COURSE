@@ -258,3 +258,8 @@ let status = "open in-progress closed";
 console.log(status.split("-"));
 console.log(status.split(","));
 console.log(status.split(" "));
+
+let roles = "admin user; guest";
+console.log(roles.split(";"));
+console.log(roles.split(" "));
+console.log(roles.split(""));
