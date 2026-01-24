@@ -231,3 +231,30 @@ console.log(systemNote.includes("tonight"));
 let email = "Thank you";
 console.log(email.includes("you"));
 console.log(email.includes("me"));
+
+// Split (separator)
+
+let animals1 = "cat, dog, horse";
+console.log(animals1.split(","));
+console.log(animals1.split(""));
+console.log(animals1.split(" "));
+
+let month = "January February March";
+console.log(month.split(","));
+console.log(month.split(""));
+console.log(month.split("  "));
+
+let days = "Monday,  Tuesday";
+console.log(days.split(""));
+console.log(days.split("  "));
+console.log(days.split(","));
+
+let weatherTypes = "sunny rainy cloudy";
+console.log(weather.split(""));
+console.log(weatherTypes.split(" "));
+console.log(weatherTypes.split(","));
+
+let status = "open in-progress closed";
+console.log(status.split("-"));
+console.log(status.split(","));
+console.log(status.split(" "));
