@@ -151,3 +151,6 @@ console.log(event.slice(6));
 
 let meeting = "Weekly Team Sync";
 console.log(meeting.slice(6, 11));
+
+let company = "Global Tech Solutions";
+console.log(company.slice(6));
