@@ -268,3 +268,18 @@ let drinks = "coffee, tea, juice";
 console.log(drinks.split(""));
 console.log(drinks.split(","));
 console.log(drinks.split(" "));
+
+let moods = "happy, tired, calm";
+console.log(moods.split(""));
+console.log(moods.split(" "));
+console.log(moods.split(","));
+
+let cities = "New York Boston Chicago";
+console.log(cities.split(" "));
+console.log(cities.split(""));
+console.log(cities.split(","));
+
+let colors = "red; blue; green";
+console.log(colors.split(""));
+console.log(colors.split(";"));
+console.log(colors.split(" "));
