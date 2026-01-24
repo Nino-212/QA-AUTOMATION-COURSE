@@ -263,3 +263,8 @@ let roles = "admin user; guest";
 console.log(roles.split(";"));
 console.log(roles.split(" "));
 console.log(roles.split(""));
+
+let drinks = "coffee, tea, juice";
+console.log(drinks.split(""));
+console.log(drinks.split(","));
+console.log(drinks.split(" "));
