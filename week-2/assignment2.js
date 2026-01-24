@@ -154,3 +154,6 @@ console.log(meeting.slice(6, 11));
 
 let company = "Global Tech Solutions";
 console.log(company.slice(6));
+
+let airport = "Los Angeles Airport";
+console.log(airport.slice(11));
