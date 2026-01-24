@@ -168,3 +168,6 @@ console.log(jobTitle.replace("Junior", "Senior"));
 
 let statusMessage = "order is not completed";
 console.log(statusMessage.replace("not", ""));
+
+let comment = "This test is very slow";
+console.log(comment.replace("slow", "fast"));
