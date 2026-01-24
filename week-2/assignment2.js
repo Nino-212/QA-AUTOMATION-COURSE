@@ -186,3 +186,6 @@ console.log(description.replace("This", ""));
 
 let response = "Server returned bad response";
 console.log(response.replace("bad", ""));
+
+let message = "Please update old version";
+console.log(message.replace("old", ""));
