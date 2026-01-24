@@ -139,3 +139,12 @@ console.log(redbook.slice(4));
 
 let movie = "Dark Night Movie";
 console.log(movie.slice(4, 9));
+
+let title = "Master JavaScript Course";
+console.log(title.slice(6));
+
+let address = "221 Baker Street London";
+console.log(address.slice(3));
+
+let event = "Summer Music Festival";
+console.log(event.slice(6));
