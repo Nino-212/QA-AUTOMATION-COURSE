@@ -41,4 +41,24 @@ console.log(Array.isArray(carBrands)); //true
 
 const word = "Engine";
 const chars = Array.from(word);
-console.log(chars);
+console.log(chars); // [ 'E', 'n', 'g', 'i', 'n', 'e' ]
+
+//Part 2
+//Clean a String
+
+let cars = "  BMW   Ford     AUDI     Tesla     KIA   ";
+let newCars = cars.trim().replace(/\s+/g, " ");
+console.log(newCars); //BMW Ford AUDI Tesla KIA;
+console.log(newCars.length); //23
+
+// Task 7 Case & Access
+let newUpCars = newCars.toUpperCase();
+console.log(newUpCars); //BMW FORD AUDI TESLA KIA
+
+let newLowCars = newUpCars.toLowerCase();
+console.log(newLowCars); // bmw ford audi tesla kia
+
+console.log(newLowCars[0]);
+
+console.log(newLowCars.length);
+console.log(newLowCars[22]);
