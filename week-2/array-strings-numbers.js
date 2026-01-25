@@ -60,5 +60,12 @@ console.log(newLowCars); // bmw ford audi tesla kia
 
 console.log(newLowCars[0]);
 
-console.log(newLowCars.length);
+console.log(newLowCars.length); //23
 console.log(newLowCars[22]);
+
+// Task 8. Slice & Replace
+
+let theBestCar = newLowCars.split(" ");
+console.log(theBestCar[0]); // bmw
+
+console.log(theBestCar[4]);
