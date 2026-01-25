@@ -28,3 +28,17 @@ console.log(carBrands); //alphabeticlly// [ 'BMW', 'Ford', 'Mersedes', 'Tesla', 
 console.log(carBrands.includes("Toyota")); //find Toyota// false
 
 console.log(carBrands[0]); // index BMW
+
+const lastIndexBMW = carBrands.lastIndexOf("BMW");
+console.log(lastIndexBMW); //// BMW appears only once in the array, so first and last index are the same (0)
+
+//Task 5 Joiners
+
+const allBrands = carBrands.join(",");
+console.log("join ():", allBrands); // single string//BMW,Ford,Mersedes,Tesla,maserati
+
+console.log(Array.isArray(carBrands)); //true
+
+const word = "Engine";
+const chars = Array.from(word);
+console.log(chars);
