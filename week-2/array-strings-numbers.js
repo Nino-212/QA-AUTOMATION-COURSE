@@ -68,4 +68,23 @@ console.log(newLowCars[22]);
 let theBestCar = newLowCars.split(" ");
 console.log(theBestCar[0]); // bmw
 
-console.log(theBestCar[4]);
+console.log(theBestCar[4]); // kia
+
+//Task 9: Search Methods
+
+"newLowCars".includes("car");
+console.log(newLowCars.includes("car")); // false
+
+newLowCars.indexOf("tesla");
+console.log(newLowCars.indexOf("tesla")); // 14
+
+console.log(newUpCars.startsWith("BMW")); // true
+console.log(newUpCars.endsWith("BMW")); // false
+
+//Task 10: Split & Concat
+
+let carWords = newUpCars.split(" "); //[ 'BMW', 'FORD', 'AUDI', 'TESLA', 'KIA' ]
+console.log(carWords);
+
+let allCars = newLowCars.concat(" ", newUpCars); // bmw ford audi tesla kia BMW FORD AUDI TESLA KIA
+console.log(allCars);
