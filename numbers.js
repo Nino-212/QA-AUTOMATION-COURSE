@@ -54,5 +54,34 @@ console.log(parseFloat("11.5")); //11.5
 
 //Checking Numbers
 
-console.log(isNAN("abc")); //true
-console.log(isNAN(15)); // false
+//Math.abc() - Returns the absolute value of a number
+//if the number is negative, it becomes positive
+//if it's already positive,it stays the same
+//if it's 0, it stays 0
+
+console.log(Math.abs(-20)); //20
+
+//Math.abs() - Returns the absolute value of a number
+
+// if the number is negative, it becomes positive
+// if it's already positive, it stays the same
+// if  it's 0, it stays 0;
+console.log(Math.abs(-10));
+
+// Math.min() -Returns the smallest value
+
+console.log(Math.min(3, 7, 1)); //1;
+
+//MATH UTILITY METHODS
+
+// Math.max() - Returns the lagest value
+
+console.log(Math.max(3, 7, 1)); // 7
+
+//Math.pow() Raises a number to a power
+
+console.log(Math.pow(2, 3));
+
+// Math.aqrt() - Returns the root of a number
+
+console.log(Math.sqrt(24)); //4.47213595499958
