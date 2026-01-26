@@ -88,3 +88,108 @@ console.log(carWords);
 
 let allCars = newLowCars.concat(" ", newUpCars); // bmw ford audi tesla kia BMW FORD AUDI TESLA KIA
 console.log(allCars);
+
+//Task 11:Template Literals
+
+let SportcarBrand = "McLaren";
+let carYear = 2020;
+let carAge = 6;
+console.log(`Car: ${SportcarBrand}, year: ${carYear}, age${carAge}`); //Car: McLaren, year: 2020, age6
+
+//PART 3: Numbers
+//Task 12 Rouding
+
+let number = 120.1;
+console.log(Math.round(120.1)); //120
+
+console.log(Math.floor(120.1)); //120
+
+console.log(Math.trunc(120.1)); //120
+
+console.log(Math.ceil(120.1)); //121
+
+let price = 420.558;
+
+//Task 13 Formatting
+console.log(price.toFixed(2)); //420.56
+
+//Task 14 Conversions
+
+let strNumber = "77";
+let number7 = Number(strNumber);
+
+console.log(number7); // 77
+console.log(typeof number7); // "number"
+
+//Task 15 Checking
+// Task 15: Checking
+
+// 1. Check if a value is Not a Number
+let value = "abc";
+
+let isNotANumber = Number.isNaN(Number(value));
+console.log(isNotANumber); // true
+
+// 2. Check if a number is an integer
+// Task 15: Checking
+
+// 1. Check if a value is Not a Number
+let value1 = "abc";
+
+let isNotANumber15 = Number.isNaN(Number(value1));
+console.log(isNotANumber15); // true
+
+// 2. Check if a number is an integer
+let num = 10.5;
+
+let isInteger = Number.isInteger(num);
+console.log(isInteger); // false
+
+// Task 16: Math Utilities
+
+// 1. Find the absolute value of a number
+let number1 = -15;
+console.log(Math.abs(number1)); // 15
+
+// 2. Find the smallest number
+console.log(Math.min(3, 7, 1, 9)); // 1
+
+// 3. Find the largest number
+console.log(Math.max(3, 7, 1, 9)); // 9
+
+// 4. Raise a number to a power
+console.log(Math.pow(2, 3)); // 8
+
+// 5. Find the square root of a number
+console.log(Math.sqrt(16)); // 4
+
+// Task 17: Random Numbers
+
+// 1. Generate a random number between 0 and 1
+let randomBetween0And1 = Math.random();
+console.log(randomBetween0And1);
+
+// 2. Generate a random whole number between 1 and 10
+let randomBetween1And10 = Math.floor(Math.random() * 10) + 1;
+console.log(randomBetween1And10);
+
+// 3. Explain the formula in comments
+
+// Math.random() generates a random number between 0 (inclusive) and 1 (exclusive)
+// * 10 scales the number to a range from 0 to 9.999...
+// Math.floor() rounds the number down to the nearest whole number (0–9)
+// + 1 shifts the range to 1–10
+
+// FINAL MINI CHALLENGE
+
+// 1. Takes a sentence about cars
+let sentence = "   I LOVE fast CARS and electric vehicles   ";
+
+// 2. Cleans it (trim + case change)
+let cleanedSentence = sentence.trim().toLowerCase();
+
+// 3. Splits it into words
+let words = cleanedSentence.split(" ");
+
+// 4. Prints the number of words using a template literal
+console.log(`The sentence has ${words.length} words`);
