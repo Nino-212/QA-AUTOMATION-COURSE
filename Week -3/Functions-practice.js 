@@ -15,3 +15,23 @@ function snowStorm(disaster){
 }
 console.log(snowStorm ("disaster in New York"));
 
+
+//2. Task: First $ Last Character 
+
+function firstAndLastCharacter(task) {
+  let text = task.trim();
+  let first = text[0];
+  let last = text[text.length - 1];
+  return first + last;
+}
+
+//Task: Word Counter 
+
+function wordCounter(task){
+let words = task.split (" ");
+return words.length;
+}
+
+//Part 2 Brand Checker 
+
+//Task 
