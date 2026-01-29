@@ -32,6 +32,21 @@ let words = task.split (" ");
 return words.length;
 }
 
-//Part 2 Brand Checker 
+//Part 2 ARRAY + Function  
 
-//Task 
+//Task 4: Brand Checker
+
+function brandChecker() {
+  if (carBrands.includes("BMW")) {
+    return "Brand exists";
+  } else {
+    return "Brand not found";
+  }
+}
+
+//Task 5 Get Last Brand 
+function getLastBrand(carBrands) {
+    return carBrands[carBrands.length - 1];
+}
+
+console.log(getLastBrand(carBrands)); // Tesla
