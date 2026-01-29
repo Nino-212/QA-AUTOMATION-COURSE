@@ -59,3 +59,30 @@ function formatList(carBrands) {
 }
 
 console.log(formatList(carBrands));
+
+//Part 3 NUMBER + FUNCTIONS
+
+//Task 7 Safe Rounding 
+
+function safeRounding(number) {
+  if (typeof number !== "number") {
+    return "Invalid number";
+  }
+  return Math.round(number);
+}
+
+console.log(safeRounding(priceBMW));
+
+// Task 8 
+
+function comparePrices(price1, price2) {
+  if (price1 === price2) {
+    return "Prices are equal";
+  }
+  if (price1 > price2) {
+    return "First is higher";
+  }
+  return "Second is higher";
+}
+
+console.log(comparePrices(priceBMW, priceTesla));
