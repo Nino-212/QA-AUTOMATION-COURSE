@@ -86,3 +86,35 @@ function comparePrices(price1, price2) {
 }
 
 console.log(comparePrices(priceBMW, priceTesla));
+
+//Task 9
+
+function getRandomNumber() {
+
+  return Math.floor(Math.random() * 10) + 1;
+}
+
+console.log(getRandomNumber());
+
+  // random number from 1 to 10
+
+
+//Task 10 
+
+// Task 10
+function budgetCheck(carPrice, userBudget) {
+
+    if (carPrice <= 0 || userBudget <= 0) {
+        return "Invalid input";
+    }
+
+    if (carPrice <= userBudget) {
+        return "Within budget";
+    }
+
+    return "Over budget";
+}
+
+console.log(budgetCheck(5000, 7000)); // Within budget
+console.log(budgetCheck(9000, 7000)); // Over budget
+console.log(budgetCheck(-1, 7000));   // Invalid input
