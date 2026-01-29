@@ -1,0 +1,17 @@
+//Setup
+
+ 
+let carBrands = ["BMW", "Toyota", "KIA", "Mercedes", "Tesla"];
+let numbers = [10, 15, 27, 20, 11];
+let sentence = "I love BMW";
+let priceBMW = 99999.99
+
+// Task 1 Clean & Format Text 
+
+function snowStorm(disaster){
+    let cleanNewYork = disaster.trim();
+    const lifeInNewYork = cleanNewYork. toLowerCase ();
+    return lifeInNewYork;  
+}
+console.log(snowStorm ("disaster in New York"));
+
