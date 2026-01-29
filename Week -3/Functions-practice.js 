@@ -50,3 +50,12 @@ function getLastBrand(carBrands) {
 }
 
 console.log(getLastBrand(carBrands)); // Tesla
+
+
+// Task 6 Format Brands List 
+
+function formatList(carBrands) {
+  return carBrands.join(",");
+}
+
+console.log(formatList(carBrands));
