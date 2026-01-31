@@ -36,3 +36,15 @@ while (i < myFavoriteCity.length) {
   console.log(myFavoriteCity[i]);
   i++;
 }
+
+// 🛑 Task 5: Stop When Found
+
+function stopWhenFound(arr, value) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) {
+      console.log("Found:", arr[i]);
+      break;
+    }
+  }
+}
+stopWhenFound(carBrands, "Tesla");
