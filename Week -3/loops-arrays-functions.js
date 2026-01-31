@@ -25,3 +25,14 @@ function firstAndLast(arr) {
   console.log(arr[arr.length - 1]);
 }
 firstAndLast(carBrands);
+
+// Part 2 while LOOP (Strings)
+
+// 🔄 Task 4: Loop Through a String
+
+let myFavoriteCity = "New York";
+let i = 0;
+while (i < myFavoriteCity.length) {
+  console.log(myFavoriteCity[i]);
+  i++;
+}
