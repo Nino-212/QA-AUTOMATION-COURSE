@@ -102,19 +102,23 @@ console.log(getRandomNumber());
 //Task 10 
 
 // Task 10
-function budgetCheck(carPrice, userBudget) {
+
+    function budgetCheck(carPrice, userBudget) {
+    console.log("carPrice:", carPrice);
+    console.log("userBudget:", userBudget);
 
     if (carPrice <= 0 || userBudget <= 0) {
-        return "Invalid input";
+    console.log("Invalid input condition worked");
+     return "Invalid input";
     }
 
+    console.log("Inputs are valid");
+
     if (carPrice <= userBudget) {
+        console.log("Car is within budget");
         return "Within budget";
     }
 
+    console.log("Car is over budget");
     return "Over budget";
 }
-
-console.log(budgetCheck(5000, 7000)); // Within budget
-console.log(budgetCheck(9000, 7000)); // Over budget
-console.log(budgetCheck(-1, 7000));   // Invalid input
