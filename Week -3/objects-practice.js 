@@ -58,4 +58,15 @@ console.log(movie.calculateRating()); //166666666666.66666
 // Task 8: Add a New Property
 movie.actor = "Unknown actor";
 
+console.log(movie); // actor: 'Unknown actor'
+
+// Task 9: Update a Property Directly
+
+movie.rating = 0,1;
+console.log(movie.rating); //0
+
+//Task 10: Delete a Property 
+
+delete movie.budget;
 console.log(movie);
+
