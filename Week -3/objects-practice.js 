@@ -1,0 +1,54 @@
+//🧱 Task 1: Object Creation
+//⚙ Task 2: Description Method
+// 🎬 Task 1: Object Creation
+
+// 🎬 Task 1: Object Creation
+const movie = {
+  title: "Melania",
+  year: 2026,
+  rating: 1,
+  budget: 500000000000,
+  details: {
+    genre: "Drama",
+    director: "Unknown"
+  },
+  // Task 2: Description Method
+  describe: function () {
+    return "Movie " + this.title + " released in " + this.year;
+  },
+  // Task 3: Update Method
+  updateRating: function (newRating) {
+    this.rating = newRating;
+    return this.rating;
+  },
+  //Task 4  Calculation Method
+ calculateRating: function (){
+    return this.budget /this.rating;
+ }
+};
+
+console.log(movie.describe()); //Movie Melania released in 2026
+console.log(movie.updateRating(3)); //3
+console.log(movie.rating); //3
+//Task 5 Dot vs Bracket
+console.log(movie.title);        // dot notation
+console.log(movie["year"]);     // bracket notation
+
+//Task 6: Property Checker
+
+function hasProperty(obj, prop) {
+  return prop in obj;
+}
+
+console.log(hasProperty(movie, "title")); //true
+console.log(hasProperty(movie, "actor")); // false
+
+// 🔄 Task 7: Method Calls
+const descriptionResult = movie.describe();
+const updatedRating = movie.updateRating(3);
+const calculateRating = movie.calculateRating();
+
+console.log(descriptionResult);
+console.log(updatedRating);
+console.log(movie.calculateRating());
+
