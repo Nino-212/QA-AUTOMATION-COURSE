@@ -48,7 +48,14 @@ const descriptionResult = movie.describe();
 const updatedRating = movie.updateRating(3);
 const calculateRating = movie.calculateRating();
 
-console.log(descriptionResult);
-console.log(updatedRating);
-console.log(movie.calculateRating());
+console.log(descriptionResult);//Movie Melania released in 2026
+console.log(updatedRating); //3
+console.log(movie.calculateRating()); //166666666666.66666
 
+//Task 8: Add a New Property
+
+
+// Task 8: Add a New Property
+movie.actor = "Unknown actor";
+
+console.log(movie);
