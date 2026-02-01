@@ -87,3 +87,15 @@ console.log(flatEntries);
 
 //🏗 Task 14: Access Nested Properties
 
+movie.details.genre
+movie.details.director
+
+console.log(movie.details.genre);
+console.log(movie.details.director);
+
+// 🏗 Task 15: Access Nested Properties
+
+const{title, year } = movie;
+
+console.log(title);
+console.log (year);
