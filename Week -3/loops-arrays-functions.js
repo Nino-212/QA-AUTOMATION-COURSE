@@ -58,3 +58,15 @@ function printEachValue(carBrands) {
   }
 }
 printEachValue(carBrands);
+
+//⏭ Task 7: Skip a Value
+
+function skipValue(arr, valueToSkip) {
+  for (let brand of arr) {
+    if (brand === valueToSkip) {
+      continue;
+    }
+    console.log(brand);
+  }
+}
+skipValue(carBrands, "Tesla");
