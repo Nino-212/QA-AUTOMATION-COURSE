@@ -83,11 +83,11 @@ function toUppercaseForOf(array) {
 
   return result;
 }
-const upperForOf = toUppercaseForOf(carBrands);
+let upperForOf = toUppercaseForOf(carBrands);
 console.log(upperForOf);
 
 function toUppercaseFor(array) {
-  const result = [];
+  let result = [];
 
   for (let i = 0; i < array.length; i++) {
     result.push(array[i].toUpperCase());
@@ -97,3 +97,22 @@ function toUppercaseFor(array) {
 }
 const upperFor = toUppercaseFor(carBrands);
 console.log(upperFor);
+
+// 🧠 Task 9: Reverse Order (Challenge)
+function printReverse(array) {
+  for (let i = array.length - 1; i >= 0; i--) {
+    console.log(array[i]);
+  }
+}
+
+printReverse(carBrands);
+
+//🏁 Task 10: Length Checker
+function printElements(array) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].length > 4) {
+      console.log(array[i]);
+    }
+  }
+}
+printElements(carBrands);
