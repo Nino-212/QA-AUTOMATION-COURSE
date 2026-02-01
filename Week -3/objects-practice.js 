@@ -70,3 +70,20 @@ console.log(movie.rating); //0
 delete movie.budget;
 console.log(movie);
 
+// Task 11: List Object Keys
+const movieKeys = Object.keys(movie);
+
+// Task 12: List Object Values
+const movieValues = Object.values(movie);
+console.log(movieValues);
+
+//🛠 Task 13: List Object Entries
+const movieEntries = Object.entries(movie);
+const flatEntries = movieEntries.flat();
+
+console.log(movieEntries);
+console.log(flatEntries);
+
+
+//🏗 Task 14: Access Nested Properties
+
