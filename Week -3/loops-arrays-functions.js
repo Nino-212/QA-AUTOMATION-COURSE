@@ -47,4 +47,14 @@ function stopWhenFound(arr, value) {
     }
   }
 }
-stopWhenFound(carBrands, "Tesla");
+stopWhenFound(carBrands, "Tesla"); //Found: Tesla
+
+//PART 4: for...of LOOP (Value Access)
+
+//🔂 Task 6: Print Values
+function printEachValue(carBrands) {
+  for (let brand of carBrands) {
+    console.log(brand);
+  }
+}
+printEachValue(carBrands);
