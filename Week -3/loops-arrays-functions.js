@@ -70,3 +70,30 @@ function skipValue(arr, valueToSkip) {
   }
 }
 skipValue(carBrands, "Tesla");
+
+// 🔹 PART 5: APPLYING LOGIC
+//🔄 Task 8: Uppercase Strings
+
+function toUppercaseForOf(array) {
+  let result = [];
+
+  for (let value of array) {
+    result.push(value.toUpperCase());
+  }
+
+  return result;
+}
+const upperForOf = toUppercaseForOf(carBrands);
+console.log(upperForOf);
+
+function toUppercaseFor(array) {
+  const result = [];
+
+  for (let i = 0; i < array.length; i++) {
+    result.push(array[i].toUpperCase());
+  }
+
+  return result;
+}
+const upperFor = toUppercaseFor(carBrands);
+console.log(upperFor);
