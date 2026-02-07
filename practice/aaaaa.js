@@ -1,21 +1,26 @@
-let num = 25;
-let string = "BMWX3";
-console.log(num === string);
+//task 1
+let city = ["Moscow", "london", "New York"];
+console.log(city[0]);
+console.log(city[city.length - 1]);
+console.log(city.length);
+//task 2
+let animals = ["cat", "dog", "mouse"];
+console.log(animals[0]);
+console.log(animals[animals.length - 1]);
+console.log(animals.length);
+//task 3
+let colors = ["blue", "red", "white", "black"];
+console.log(colors[0]);
+console.log(colors[colors.length - 1]);
+console.log(colors.length);
 
-//2
-let age = 42;
-let goodAge = 45;
-console.log(age > goodAge);
-console.log(age < goodAge);
-
-//3
-let number = 100;
-let numberOne = 190;
-console.log(number !== numberOne);
-
-//4
-let numOne = 7;
-console.log(numOne >= 10);
-console.log(numOne < 5);
-
-console.log("" || "QA");
+//task 4
+let num = [10, 11, 12, 13, 14, 15, 16, 18];
+console.log(num[0]);
+console.log(num[num.length - 1]);
+console.log(num.length);
+//task 5
+let country = ["russia", "USA", "France", "GB"];
+console.log[country[0]];
+console.log(country[country.length - 1]);
+console.log(country.length);
