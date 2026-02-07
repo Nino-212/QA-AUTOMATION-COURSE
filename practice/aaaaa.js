@@ -24,3 +24,70 @@ let country = ["russia", "USA", "France", "GB"];
 console.log[country[0]];
 console.log(country[country.length - 1]);
 console.log(country.length);
+
+//task 6
+let cars = ["bmw", "mers", "audi"];
+console.log(cars[0]);
+console.log(cars[cars.length - 1]);
+console.log(cars.length);
+//task 7
+let friuts = ["apple", "banana", "kiwi"];
+console.log(friuts[0]);
+console.log(friuts[friuts.length - 1]);
+console.log(friuts.length);
+//task 8
+let languages = ["russian", "english", "french"];
+console.log(languages[0]);
+console.log(languages[languages.length - 1]);
+
+//task 9
+let carBrands = ["bmw", "audi", "mers", "tesla"];
+carBrands[1] = "Toyota";
+carBrands[carBrands.length - 1] = "honda";
+console.log(carBrands);
+
+//task 10
+let countryOne = ["usa", "russia", "georgia"];
+countryOne[1] = "canada";
+countryOne[countryOne.length - 1] = "japan";
+console.log(countryOne);
+
+// task a
+let favColors = ["blue", "red", "white"];
+favColors[1] = "black";
+favColors[favColors.length - 1] = "yellow";
+console.log(favColors);
+
+//task b
+let favAnimals = ["dog", "cat", "mouse"];
+favAnimals[2] = "elephant";
+favAnimals[favAnimals.length - 1] = "tick";
+console.log(favAnimals);
+
+//task c
+let cities = ["new york", "moscow", "tbilisi"];
+cities[2] = "'paris";
+cities[cities.length - 2] = "washigton";
+console.log(cities);
+
+//task d
+let fruit = ["banana", "kiwi", "apple", "orange", "blackberry"];
+fruit[4] = "raspberry";
+fruit[0] = "kiwi";
+console.log(fruit);
+
+//task e
+let myLanguages = ["russian", "english", "georgian"];
+myLanguages[1] = "frech";
+myLanguages[myLanguages.length - 1] = "german";
+console.log(myLanguages);
+
+let brand = ["chanel", "zara", "gucci", "h&m", "cos"];
+brand.push("aaa"); //add to the end
+brand.pop(); //remove last
+brand.unshift("kkk"); // add to the beginig
+brand.shift("ssss"); // remove first
+brand.reverse(); //reverse
+brand.sort(); // sort elements ;
+
+console.log(brand);
