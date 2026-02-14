@@ -91,3 +91,12 @@ brand.reverse(); //reverse
 brand.sort(); // sort elements ;
 
 console.log(brand);
+
+//Finder Methods
+
+console.log (brand.includes("zara")); //check element
+console.log (brand.indexOf("cos");// find index
+console.log (brand.lastIndexOf("zara")); // find the last index 
+
+
+
