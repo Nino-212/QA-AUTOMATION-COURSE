@@ -46,10 +46,28 @@ let score: number[] = [100, 500, 1000, 5000, 1];
 // Task 8: Simple Object
 
 let user: { name: string; age: number; isAdmin: boolean } = {
-  name: "Alice",
-  age: 22,
+  name: "Nino",
+  age: 42,
   isAdmin: true,
 };
 console.log(`${user.name} is ${user.age} years old`);
 
 // Task 9: Product Object
+
+let product: { title: string; price: Number; inStock: boolean } = {
+  title: "BMW",
+  price: 2000,
+  inStock: true,
+};
+console.log(`${product.title} is ${product.price}`);
+
+// # 🔹 FINAL MINI-CHALLENGE
+
+// Task 10: Real-World Data
+
+let students = [
+  { name: "Nino", age: 100, isActive: true },
+  { name: "Anna", age: 150, isActive: true },
+  { name: "Mark", age: 200, isActive: false },
+];
+console.log(students);
